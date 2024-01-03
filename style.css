@@ -1,0 +1,98 @@
+header{
+    width: 1440px;
+    height: 80px;
+    padding: 20px 112px;
+    box-sizing: border-box;
+}
+menu{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    margin-right: 32px;
+    padding: 5px 0;
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-right: 492px;
+    align-items: center;
+    font-size: 14px;
+}
+.apps{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.start_content{
+    width: 1440px;
+    height: 784px;
+    padding: 72px 112px;
+    box-sizing: border-box;
+}
+.con_block{
+    /* width: 1220px;
+    height: 640px; */
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.text_side{
+    margin-top: 96px;
+    margin-right: 48px;
+    font-size: 18px;
+    display: flex;
+    width: 700px;
+    height: 400px;
+    flex-direction: column;
+    gap: 16px;
+}
+strong{
+    font-size: 60px;
+}
+.buttons{
+    display: flex;
+    margin-top: 16px;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 16px;
+}
+#get_started{
+    width: 140px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(152, 0, 190);
+    color: white;
+}
+#watch_video{
+    width: 140px;
+    height: 56px;
+    border: none;
+    background-color: white;
+    color: violet;
+}
+.image_side{
+    height: 640px;
+    width: 490px;
+    padding: 0 84px;
+}
+
+.sponsors_block{
+    height: 142px;
+    width: 1440px;
+    padding: 16px 112px;
+}
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.features{
+    height: 748px;
+    width: 1440px;
+    padding: 96px 112px;
+}
